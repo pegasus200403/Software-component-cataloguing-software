@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    height: 8vh;
+    background-color: rgb(190, 255, 232);
+    /* background: #009a62; */
+    align-items: center;
+    padding: 1rem 3rem;
+    justify-content: space-between;
+}
+
+.header .title{
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.header .btns{
+    display: flex;
+}
+
+.header .btns a{
+    margin: auto 1rem;
+    text-decoration: none;
+    color: rgb(0, 121, 101);
+    cursor: pointer;
+}
